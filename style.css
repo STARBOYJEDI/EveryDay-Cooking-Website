@@ -133,3 +133,17 @@ a {
     grid-template-columns: 1fr;
     gap: var(--spacing-md);
 }
+
+.category-card {
+    height: 20rem;
+    border-radius: var(--radius-xl);
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: inherit;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(141, 75, 0, 0.05);
+    transition:
+    box-shadow 300ms ease,
+    transform 300ms ease;
+}

@@ -103,6 +103,22 @@ a {
     line-height: 1;
 }
 
+.site-title,
+.footer-title,
+.category-label h2 {
+    margin: 0;
+    font-family: var(--font-heading);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.site-title {
+    color: var(--color-primary);
+    text-align: center;
+    white-space: nowrap;
+}
+
 .category-card:hover .category-overlay {
     background: rgba(0, 0, 0, 0.1);
 }

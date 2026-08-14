@@ -233,3 +233,48 @@ a {
     opacity 150ms ease;
 }
 
+.footer-nav a:hover {
+    color: var(--color-primary);
+    opacity: 1;
+}
+
+.footer-copy {
+    color: var(--color-secondary);
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .category-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (min-width: 1024px) {
+    .category-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .category-card-offset {
+        transform: translateY(var(--spacing-md));
+    }
+
+    .category-card-offset:hover {
+        transform: translateY(-2px);
+    }
+}
+
+@media (max-width: 480px) {
+    .top-nav {
+        padding-inline: 16px;
+    }
+
+    .site-title {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .main-content,
+    .site-footer {
+        padding-inline: 16px;
+    }
+}

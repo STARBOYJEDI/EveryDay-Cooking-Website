@@ -126,3 +126,10 @@ a {
     padding: var(--spacing-xl) var(--spacing-md);
     flex-grow: 1;
 }
+
+.category-grid {
+    margin: 0 0 var(--spacing-xl);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+}

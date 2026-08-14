@@ -65,6 +65,20 @@ a {
     align-items: center;
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.nav-actions-left {
+    justify-content: flex-start;
+}
+
+.nav-actions-right {
+    justify-content: flex-end;
+}
+
 .category-card:hover .category-overlay {
     background: rgba(0, 0, 0, 0.1);
 }

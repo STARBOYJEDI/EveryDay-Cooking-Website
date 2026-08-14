@@ -172,3 +172,23 @@ a {
 .category-card:hover .category-image {
     transform: scale(1.05);
 }
+
+.category-content {
+    position: absolute;
+    inset: 0;
+    z-index: 20;
+    padding: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.category-label {
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-lg);
+    display: inline-block;
+    align-self: flex-start;
+    background: rgba(251, 248, 255, 0.9);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}

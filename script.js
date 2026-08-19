@@ -6,3 +6,8 @@ function setMenuOpen(isOpen) {
     menuButton.setAttribute("aria-expanded", String(isOpen));
     submenu.hidden = !isOpen;
 }
+
+menuButton.addEventListener("click", () => {
+    const isOpen = menuButton.getAttribute("aria-expanded") === "true";
+    setMenuOpen(!isOpen);
+});

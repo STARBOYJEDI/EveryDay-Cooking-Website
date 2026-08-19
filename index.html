@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;700&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <!-- TopNavBar -->
@@ -23,11 +24,28 @@
         <div class="site-title">Everyday Cooking</div>
 
         <div class="nav-actions nav-actions-right">
-        <button class="icon-button" type="button" aria-label="Menu">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
+            <div class="menu-wrapper">
+                <button 
+                    class="icon-button"
+                    id="menu-button"
+                    type="button" 
+                    aria-label="Menu"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls="main-submenu"
+                >
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+
+                <nav class="submenu" id="main-submenu" aria-label="Main menu" hidden>
+                    <a href="#">Breakfast</a>
+                    <a href="#">Lunch</a>
+                    <a href="#">Dinner</a>
+                    <a href="#">Desserts</a>
+                    <a href="#">Newsletter</a>
+                </nav>
+            </div>
         </div>
-    </div>
     </header>
 
     <!-- Main Content -->

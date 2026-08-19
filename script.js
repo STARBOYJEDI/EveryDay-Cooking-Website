@@ -20,3 +20,15 @@ document.addEventListener("click", (event) => {
     }
 });
 
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuButton.focus();
+    }
+});
+
+submenu.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+        setMenuOpen(false);
+    });
+});

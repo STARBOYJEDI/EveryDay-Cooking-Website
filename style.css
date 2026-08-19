@@ -102,6 +102,21 @@ a {
     position: relative;
 }
 
+.submenu {
+    min-width: 180px;
+    padding: 8px;
+    border: 1px solid rgba(136, 115, 100, 0.24);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    z-index: 100;
+    background: var(--color-surface);
+    box-shadow: 0 12px 24px rgba(141, 75, 0, 0.12);
+}
+
 .material-symbols-outlined {
     font-size: 24px;
     line-height: 1;

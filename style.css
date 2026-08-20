@@ -170,6 +170,12 @@ a {
     color: #8d4b00;
 }
 
+.submenu-nested {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+
 .material-symbols-outlined {
     font-size: 24px;
     line-height: 1;

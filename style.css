@@ -142,6 +142,15 @@ a {
     border-radius: 0.5rem;
 }
 
+.submenu-group summary {
+    padding: 10px 12px;
+    border-radius: 0.5rem;
+    color: var(--color-on-surface-variant);
+    cursor: pointer;
+    list-style: none;
+    transition: background-color 150ms ease, color 150ms ease;
+}
+
 .material-symbols-outlined {
     font-size: 24px;
     line-height: 1;

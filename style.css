@@ -150,6 +150,22 @@ a {
     opacity: 0.75;
 }
 
+.search-close-button {
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    border: 0;
+    border-radius: var(--radius-full);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    background: transparent;
+    color: var(--color-primary);
+    cursor: pointer;
+    transition: background-color 150ms ease;
+}
+
 .menu-wrapper {
     position: relative;
 }

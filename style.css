@@ -130,6 +130,10 @@ a {
     display: none;
 }
 
+.search-popup-icon {
+    color: var(--color-primary);
+}
+
 .menu-wrapper {
     position: relative;
 }

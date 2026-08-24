@@ -47,6 +47,18 @@ a {
     font: inherit;
 }
 
+.sr-only {
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    clip: rect(0, 0, 0, 0);
+}
+
 .site-header {
     width: 100%;
     background: var(--color-surface);

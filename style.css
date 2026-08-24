@@ -110,6 +110,22 @@ a {
     background: var(--color-surface-container);
 }
 
+.search-popup {
+    width: min(360px, calc(100vw - 48px));
+    padding: 8px 8px 8px 12px;
+    border: 1px solid rgba(136, 115, 100, 0.24);
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    z-index: 100;
+    background: var(--color-surface);
+    box-shadow: 0 12px 24px rgba(141, 75, 0, 0.12);
+}
+
 .menu-wrapper {
     position: relative;
 }

@@ -145,6 +145,11 @@ a {
     line-height: 24px;
 }
 
+.search-input::placeholder {
+    color: var(--color-on-surface-variant);
+    opacity: 0.75;
+}
+
 .menu-wrapper {
     position: relative;
 }

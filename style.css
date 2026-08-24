@@ -126,6 +126,10 @@ a {
     box-shadow: 0 12px 24px rgba(141, 75, 0, 0.12);
 }
 
+.search-popup[hidden] {
+    display: none;
+}
+
 .menu-wrapper {
     position: relative;
 }

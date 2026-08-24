@@ -16,9 +16,26 @@
     <header class="site-header">
     <div class="top-nav">
         <div class="nav-actions nav-actions-left">
-        <button class="icon-button" type="button" aria-label="Search">
+        <!-- <button class="icon-button" type="button" aria-label="Search">
             <span class="material-symbols-outlined">search</span>
-        </button>
+        </button> -->
+            <div class="search-wrapper">
+                <button 
+                    class="icon-button"
+                    id="search-button"
+                    type="button" 
+                    aria-label="Search"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-controls="search-menu"
+                >
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+
+                <div class="search-popup" id="search-popup" role="search" hidden>
+                    
+                </div>
+            </div>
         </div>
 
         <div class="site-title">Everyday Cooking</div>

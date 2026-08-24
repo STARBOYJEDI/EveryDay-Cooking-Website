@@ -1,6 +1,7 @@
-
 const menuButton = document.querySelector("#menu-button");
 const submenu = document.querySelector("#main-submenu");
+const searchButton = document.querySelector("#search-button");
+const searchPopup =
 
 function setMenuOpen(isOpen) {
     menuButton.setAttribute("aria-expanded", String(isOpen));

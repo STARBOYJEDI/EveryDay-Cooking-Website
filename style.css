@@ -166,6 +166,12 @@ a {
     transition: background-color 150ms ease;
 }
 
+.search-close-button:hover,
+.search-close-button:focus-visible {
+    background: var(--color-surface-container);
+    outline: none;
+}
+
 .menu-wrapper {
     position: relative;
 }

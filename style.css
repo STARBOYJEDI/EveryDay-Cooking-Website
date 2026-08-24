@@ -134,6 +134,10 @@ a {
     color: var(--color-primary);
 }
 
+.search-wrapper {
+    position: relative;
+}
+
 .search-input {
     min-width: 0;
     width: 100%;

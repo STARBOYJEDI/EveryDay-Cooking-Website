@@ -1,3 +1,4 @@
+
 const menuButton = document.querySelector("#menu-button");
 const submenu = document.querySelector("#main-submenu");
 const searchButton = document.querySelector("#search-button");
@@ -7,6 +8,16 @@ const searchCloseButton = document.querySelector("#search-close-button");
 function setMenuOpen(isOpen) {
     menuButton.setAttribute("aria-expanded", String(isOpen));
     submenu.hidden = !isOpen;
+}
+
+function setSearchOpen(isOpen) {
+    searchButton.setAttribute("aria-expanded", String(isOpen));
+    searchPopup.hidden = !isOpen;
+
+    if (isOpen) {
+        setMenuOpen(false);
+        searchInput.focus();
+    }
 }
 
 menuButton.addEventListener("click", () => {

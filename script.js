@@ -23,6 +23,7 @@ function setSearchOpen(isOpen) {
 menuButton.addEventListener("click", () => {
     const isOpen = menuButton.getAttribute("aria-expanded") === "true";
     setMenuOpen(!isOpen);
+    setSearchOpen(false);
 });
 
 document.addEventListener("click", (event) => {

@@ -26,6 +26,11 @@ menuButton.addEventListener("click", () => {
     setSearchOpen(false);
 });
 
+searchButton.addEventListener("click", () => {
+    const isOpen = searchButton.getAttribute("aria-expanded") === "true";
+    setSearchOpen(!isOpen);
+});
+
 document.addEventListener("click", (event) => {
     const clickedInsideMenu = event.target.closest(".menu-wrapper");
 

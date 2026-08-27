@@ -31,6 +31,11 @@ searchButton.addEventListener("click", () => {
     setSearchOpen(!isOpen);
 });
 
+searchCloseButton.addEventListener("click", () => {
+    setSearchOpen(false);
+    searchButton.focus();
+});
+
 document.addEventListener("click", (event) => {
     const clickedInsideMenu = event.target.closest(".menu-wrapper");
 

@@ -54,6 +54,19 @@ document.addEventListener("keydown", (event) => {
         setMenuOpen(false);
         setSearchOpen(false);
         menuButton.focus();
+    if (event.key === "Escape") {
+        const wasSearchOpen = searchButton.getAttribute("aria-expanded") === "true";
+
+        setMenuOpen(false);
+        setSearchOpen(false);
+
+        if (wasSearchOpen) {
+            searchButton.focus();
+        } else {
+        menuButton.focus();
+            menuButton.focus();
+        }
+    }
     }
 });
 

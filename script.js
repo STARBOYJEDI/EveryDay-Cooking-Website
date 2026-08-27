@@ -3,6 +3,7 @@ const menuButton = document.querySelector("#menu-button");
 const submenu = document.querySelector("#main-submenu");
 const searchButton = document.querySelector("#search-button");
 const searchPopup = document.querySelector("#search-popup");
+const searchInput = document.querySelector("#site-search");
 const searchCloseButton = document.querySelector("#search-close-button");
 
 function setMenuOpen(isOpen) {

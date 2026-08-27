@@ -42,6 +42,11 @@ document.addEventListener("click", (event) => {
     if (!clickedInsideMenu) {
         setMenuOpen(false);
     }
+
+
+    if (!clickedInsideSearch) {
+        setSearchOpen(false);
+    }
 });
 
 document.addEventListener("keydown", (event) => {

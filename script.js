@@ -38,7 +38,7 @@ searchCloseButton.addEventListener("click", () => {
 
 document.addEventListener("click", (event) => {
     const clickedInsideMenu = event.target.closest(".menu-wrapper");
-
+    const clickedInsideSearch = event.target.closest(".search-wrapper");
     if (!clickedInsideMenu) {
         setMenuOpen(false);
     }

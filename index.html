@@ -16,9 +16,6 @@
     <header class="site-header">
     <div class="top-nav">
         <div class="nav-actions nav-actions-left">
-        <!-- <button class="icon-button" type="button" aria-label="Search">
-            <span class="material-symbols-outlined">search</span>
-        </button> -->
             <div class="search-wrapper">
                 <button 
                     class="icon-button"
@@ -27,14 +24,15 @@
                     aria-label="Search"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    aria-controls="search-menu"
+                    aria-controls="search-popup"
                 >
                     <span class="material-symbols-outlined">search</span>
                 </button>
 
-                <div class="search-popup" aria-controls="search-group" role="search" hidden>
+                <div class="search-popup" id="search-group" role="search" hidden>
                     <label class="sr-only" for="site-search">Search recipes</label>
                     <span class="material-symbols-outlined search-popup-icon">search</span>
+
                     <input
                         class="search-input"
                         id="site-search"
@@ -42,6 +40,7 @@
                         type="search"
                         placeholder="Search recipes"
                     >
+                    
                     <button class="search-close-button" id="search-close-button" type="button" aria-label="Close search">
                         <span class="material-symbols-outlined">close</span>
                     </button>

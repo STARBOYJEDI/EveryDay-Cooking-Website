@@ -63,7 +63,6 @@ document.addEventListener("keydown", (event) => {
         if (wasSearchOpen) {
             searchButton.focus();
         } else {
-        menuButton.focus();
             menuButton.focus();
         }
     }

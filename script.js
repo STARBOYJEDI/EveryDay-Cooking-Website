@@ -53,10 +53,6 @@ document.addEventListener("click", (event) => {
 
 document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
-        setMenuOpen(false);
-        setSearchOpen(false);
-        menuButton.focus();
-    if (event.key === "Escape") {
         const wasSearchOpen = searchButton.getAttribute("aria-expanded") === "true";
 
         setMenuOpen(false);
@@ -67,7 +63,6 @@ document.addEventListener("keydown", (event) => {
         } else {
             menuButton.focus();
         }
-    }
     }
 });
 

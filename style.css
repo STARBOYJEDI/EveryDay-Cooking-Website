@@ -447,3 +447,10 @@ a {
         left: 16px;
     }
 }
+
+/* Breakfast code */
+.page-heading {
+    margin-bottom: var(--spacing-xl);
+    text-align: center;
+}
+

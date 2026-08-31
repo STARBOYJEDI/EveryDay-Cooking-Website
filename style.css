@@ -504,3 +504,12 @@ a {
     object-position: center;
 }
 
+.recipe-card-content {
+    padding: var(--spacing-md);
+}
+
+
+
+
+
+

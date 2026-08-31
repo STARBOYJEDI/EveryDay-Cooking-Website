@@ -454,3 +454,10 @@ a {
     text-align: center;
 }
 
+.page-heading h1 {
+    margin: 12px 0;
+    color: var(--color-primary);
+    font-family: var(--font-heading);
+    font-size: 32px;
+    line-height: 40px;
+}

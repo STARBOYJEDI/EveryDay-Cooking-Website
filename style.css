@@ -420,7 +420,7 @@ a {
     }
 
     .category-card-offset:hover {
-        transform: translateY(-2px);
+        transform: translateY(calc(var(--spacing-md) - 2px));
     }
 }
 

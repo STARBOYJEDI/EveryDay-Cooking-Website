@@ -304,6 +304,9 @@ a {
 }
 
 .category-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 10;
     transition: background-color 150ms ease;
     box-shadow: 300ms ease, transform 300ms ease;
 }

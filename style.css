@@ -491,3 +491,9 @@ a {
     transition: box-shadow 300ms ease, transform 300ms ease;
 }
 
+.recipe-card:hover {
+    box-shadow: 0 12px 24px rgba(141, 75, 0, 0.08);
+    transform: translateY(-2px);
+}
+
+

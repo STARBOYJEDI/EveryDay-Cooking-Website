@@ -483,3 +483,11 @@ a {
     gap: var(--spacing-md);
 }
 
+.recipe-card {
+    overflow: hidden;
+    border-radius: var(--radius-xl);
+    background: var(--color-surface);
+    box-shadow: 0 4px 12px rgba(141, 75, 0, 0.05);
+    transition: box-shadow 300ms ease, transform 300ms ease;
+}
+

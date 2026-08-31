@@ -304,6 +304,11 @@ a {
     transform 300ms ease;
 }
 
+.category-card:hover {
+    box-shadow: 0 12px 24px rgba(141, 75, 0, 0.08);
+    transform: translateY(-2px);
+}
+
 .category-overlay {
     position: absolute;
     inset: 0;
@@ -315,8 +320,6 @@ a {
 .category-card:hover .category-overlay {
     background: rgba(0, 0, 0, 0.1);
 }
-
-.category
 
 .category-image {
     width: 100%;

@@ -324,6 +324,7 @@ a {
     position: absolute;
     inset: 0;
     object-fit: cover;
+    object-position: center;
     transition: transform 700ms ease;
 }
 

@@ -461,3 +461,11 @@ a {
     font-size: 32px;
     line-height: 40px;
 }
+
+.page-heading p {
+    margin: 0;
+    color: var(--color-on-surface-variant);
+}
+
+
+

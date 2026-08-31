@@ -516,6 +516,10 @@ a {
     line-height: 32px;
 }
 
+.recipe-card-content p {
+    margin: 0;
+    color: var(--color-on-surface-variant);
+}
 
 
 
